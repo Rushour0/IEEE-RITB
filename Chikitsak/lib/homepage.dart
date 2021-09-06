@@ -107,19 +107,19 @@ class HomePage extends StatelessWidget {
               title:Text("Documents", style:TextStyle(fontFamily : "Samarkan", fontSize: 36)),
               centerTitle: true,
               ),
-              body:ListView(
-                children: <Widget>[
-                  Container(
-                    height: 125,
-                    color:Colors.grey[400],
-                    child: const Center(child: Text('Upload Documents', style: hospitalStyle)),
-                  ),
-                  Container(
-                    height: 125,
-                    color:Colors.grey,
-                    child: const Center(child: Text('View Documents', style: hospitalStyle)),
-                  ),
-                ],
+              body:Container(
+                child: Center(
+                  child:TextButton(
+                    onPressed:(){},
+                    style:ButtonStyle(
+                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(18.0),
+                          side: BorderSide(color: Colors.grey),
+                        ),
+                      ),
+                    ), 
+                    child: Text('Upload Documents', style: hospitalStyle, textAlign:TextAlign.center))),
               ),
             ),
             Scaffold(
