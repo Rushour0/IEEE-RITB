@@ -25,7 +25,14 @@ flutter:
     - family: Dandelion
       fonts:
         - asset: fonts/Dandelion-Regular.ttf
+    
     - family: Montserrat
       fonts:
         - asset: fonts/Montserrat-Regular.otf
+
+    - family: Samarkan
+      fonts:
+        - asset: fonts/Samarkan-Regular.ttf
+  assets:
+    - img/logo.png
   uses-material-design: true
