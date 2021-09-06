@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/rushour0/chikitsak/BuildConfig.java
- com.rushour0.chikitsak.BuildConfig

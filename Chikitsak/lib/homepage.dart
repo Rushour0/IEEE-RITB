@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// HomePage of the app
+// Home page of the app
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
   
@@ -13,7 +13,8 @@ class HomePage extends StatelessWidget {
           bottomNavigationBar: Container(
             color: Colors.black,
             child: TabBar(
-            
+              labelStyle: TextStyle( fontFamily: "Dandelion", fontSize: 14),
+              unselectedLabelStyle: TextStyle( fontFamily: "Dandelion", fontSize: 14),  
               labelColor: Colors.white,
               unselectedLabelColor: Colors.grey[700],
               indicatorSize: TabBarIndicatorSize.tab,

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-
+// Login page of the app
 class LoginPage extends StatefulWidget {
 	LoginPage({Key? key}) : super(key: key);
 
@@ -8,6 +8,7 @@ class LoginPage extends StatefulWidget {
 	_LoginPageState createState() => _LoginPageState();
 }
 
+// Making state for class LoginPage
 class _LoginPageState extends State<LoginPage> {
 	TextStyle style = TextStyle(fontFamily: 'Montserrat', fontSize: 20.0);
      

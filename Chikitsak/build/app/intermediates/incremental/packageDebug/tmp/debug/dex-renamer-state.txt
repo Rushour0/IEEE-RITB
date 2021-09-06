@@ -1,4 +1,0 @@
-#Mon Sep 06 11:14:35 IST 2021
-base.0=D\:\\GitHub\\Hackathon Repositories\\IEEE RITB\\Chikitsak\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
