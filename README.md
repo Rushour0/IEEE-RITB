@@ -10,26 +10,32 @@ Username : admin
 Password : admin
 
 
-![WhatsApp Image 2021-09-07 at 04 14 21](https://user-images.githubusercontent.com/72869428/132264064-9be1c61c-d069-4db6-95c1-c5baa6f18273.jpeg)
+![WhatsApp Image 2021-09-07 at 04 14 21 (4)](https://user-images.githubusercontent.com/72869428/132264315-49c00e2e-ba15-4e0f-8a31-8dfeb8cdfed0.jpeg)
+
 
 
 ## List of Hospitals
 
 
-![WhatsApp Image 2021-09-07 at 04 14 21 (1)](https://user-images.githubusercontent.com/72869428/132264100-c57b1557-8fb0-4efc-b8aa-b06474cb9de7.jpeg)
+![WhatsApp Image 2021-09-07 at 04 14 21 (1)](https://user-images.githubusercontent.com/72869428/132264327-8c9bf1f8-17ba-42ba-bf7c-d70b303d3497.jpeg)
+
+
+
 
 ## Upload Documents
 
 
-![WhatsApp Image 2021-09-07 at 04 14 21 (2)](https://user-images.githubusercontent.com/72869428/132264108-35233eb7-f97b-46c2-9ae3-6b1f11833034.jpeg)
+![WhatsApp Image 2021-09-07 at 04 14 21 (2)](https://user-images.githubusercontent.com/72869428/132264341-1f92fdd7-3ecc-4979-a79c-f031e3d49648.jpeg)
+
 
 ## Activity Page
 
 
-![WhatsApp Image 2021-09-07 at 04 14 21 (3)](https://user-images.githubusercontent.com/72869428/132264124-3539efda-eba1-4397-bde7-6ca3fca75dc3.jpeg)
+![WhatsApp Image 2021-09-07 at 04 14 21 (3)](https://user-images.githubusercontent.com/72869428/132264352-f8c68d1f-e883-4c8d-9769-279e8684c794.jpeg)
+
 
 ## Settings Page
 
 
-![WhatsApp Image 2021-09-07 at 04 14 21 (4)](https://user-images.githubusercontent.com/72869428/132264133-d47ca1a9-2eea-4e62-988d-abd4a1d17879.jpeg)
+![WhatsApp Image 2021-09-07 at 04 14 21](https://user-images.githubusercontent.com/72869428/132264358-f0fd34ab-d8ec-4354-9236-3de08384c3a8.jpeg)
 
