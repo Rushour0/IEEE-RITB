@@ -13,6 +13,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  camera:
+  path_provider:
+  path:
 
   cupertino_icons: ^1.0.2
 
@@ -34,5 +37,5 @@ flutter:
       fonts:
         - asset: fonts/Samarkan-Regular.ttf
   assets:
-    - img/logo.png
+    - img/
   uses-material-design: true

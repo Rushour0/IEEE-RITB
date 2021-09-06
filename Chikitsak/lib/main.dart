@@ -14,15 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp( 
       title: _title,
-      theme: ThemeData(
-        fontFamily: "Montserrat",
-        primaryColor: Colors.black,
-        primarySwatch: Colors.teal,
-        accentColor: Colors.cyan[600],
-        buttonTheme: Theme.of(context).buttonTheme.copyWith(
-          colorScheme: ColorScheme.dark(),
-        ) 
-      ),
+      theme: ThemeData.dark(),
     home: LoginPage(),
     );
   }

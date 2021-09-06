@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+// import 'cameraopen.dart';
 
 // Home page of the app
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
-  
+  static const hospitalStyle = TextStyle(fontSize: 24, fontFamily: "Montserrat");
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -48,52 +50,60 @@ class HomePage extends StatelessWidget {
         children:<Widget>[
           Scaffold(
             appBar: AppBar(
-              title:TextField(
-                  style: TextStyle( color: Colors.white ),
-                  decoration: const InputDecoration(
-                  border: OutlineInputBorder(),
-                  hintText: 'Enter a hospital',
-                  hintStyle: TextStyle(color: Colors.grey),
-                  ),
-                ),
+              automaticallyImplyLeading: false,
+              title:Text("Hospitals",style: TextStyle(fontFamily : "Samarkan", fontSize: 36)),
+              centerTitle:true,
               ),
               body:ListView(
                 children:<Widget>[
                     Container(
-                      height: 125,
-                      color:Colors.grey,
-                      child: const Center(child: Text('1) Fortis La Femme, Greater Kailash – New Delhi.', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                      child:  Center(
+                        child:TextButton(
+                          onPressed:(){},
+                          child: Text('Fortis La Femme, Greater Kailash – New Delhi.', style: hospitalStyle, textAlign:TextAlign.center))),
                     ),
+                    Container(height:20,color:Colors.grey[400]),
                     Container(
-                      height: 125,
-                      color:Colors.grey[400],
-                      child: const Center(child: Text('2) Fortis Escorts Heart Institute (FEHI) – New Delhi.', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                      child: Center(
+                        child: TextButton(
+                          onPressed:(){},
+                          child: Text('Fortis Escorts Heart Institute (FEHI) – New Delhi.', style: hospitalStyle, textAlign:TextAlign.center))),
                     ),
+                    Container(height:20,color:Colors.grey[400]),
                     Container(
-                      height: 125,
-                      color:Colors.grey,
-                      child: const Center(child: Text('3) Rockland Hospital – New Delhi.', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                      child: Center(
+                        child:TextButton(
+                          onPressed:(){},
+                          child: Text('Rockland Hospital – New Delhi.', style: hospitalStyle, textAlign:TextAlign.center))),
                     ),
+                    Container(height:20,color:Colors.grey[400]),
                     Container(
-                      height: 125,
-                      color:Colors.grey[400],
-                      child: const Center(child: Text('4) BLK Super Specialty Hospital – New Delhi.', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                      child: Center(
+                        child:TextButton(
+                          onPressed:(){},
+                          child: Text('BLK Super Specialty Hospital – New Delhi.', style: hospitalStyle, textAlign:TextAlign.center))),
                     ),
+                    Container(height:20,color:Colors.grey[400]),
                     Container(
-                      height: 125,
-                      color:Colors.grey[400],
-                      child: const Center(child: Text('5) Primus Super Specialty Hospital – New Delhi.', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                      child: Center(
+                        child:TextButton(
+                          onPressed:(){},
+                          child: Text('Primus Super Specialty Hospital – New Delhi.', style: hospitalStyle, textAlign:TextAlign.center))),
                     ),
+                    Container(height:20,color:Colors.grey[400]),
                     Container(
-                      height: 125,
-                      color:Colors.grey[400],
-                      child: const Center(child: Text('6) Columbia Asia Referral Hospital – Yeshwanthpur.', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                      child: Center(
+                        child:TextButton(
+                          onPressed:(){},
+                          child: Text('Columbia Asia Referral Hospital – Yeshwanthpur.', style: hospitalStyle, textAlign:TextAlign.center))),
                     ),
                 ],
               ),
             ),
           Scaffold(
+
             appBar: AppBar(
+              automaticallyImplyLeading: false,
               title:Text("Documents", style:TextStyle(fontFamily : "Samarkan", fontSize: 36)),
               centerTitle: true,
               ),
@@ -102,18 +112,19 @@ class HomePage extends StatelessWidget {
                   Container(
                     height: 125,
                     color:Colors.grey[400],
-                    child: const Center(child: Text('Upload Documents', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                    child: const Center(child: Text('Upload Documents', style: hospitalStyle)),
                   ),
                   Container(
                     height: 125,
                     color:Colors.grey,
-                    child: const Center(child: Text('View Documents', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                    child: const Center(child: Text('View Documents', style: hospitalStyle)),
                   ),
                 ],
               ),
             ),
             Scaffold(
             appBar: AppBar(
+              automaticallyImplyLeading: false,
               title:Text("chikitsak", style:TextStyle(fontFamily : "Samarkan", fontSize: 36)),
               centerTitle: true,
               ),
@@ -123,59 +134,98 @@ class HomePage extends StatelessWidget {
                     Container(
                       height: 125,
                       color:Colors.grey,
-                      child: const Center(child: Text('Knee Replacement', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                      child: const Center(child: Text('Knee Replacement', style: hospitalStyle)),
                     ),
                     Container(
                       height: 125,
                       color:Colors.grey[400],
-                      child: const Center(child: Text('Kidney Replacement', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                      child: const Center(child: Text('Kidney Replacement', style: hospitalStyle)),
                     ),
                     Container(
                       height: 125,
                       color:Colors.grey,
-                      child: const Center(child: Text('Heart Replacement', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                      child: const Center(child: Text('Heart Replacement', style: hospitalStyle)),
                     ),
                     Container(
                       height: 125,
                       color:Colors.grey[400],
-                      child: const Center(child: Text('Liver Replacement', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                      child: const Center(child: Text('Liver Replacement', style: hospitalStyle)),
                     ),
                 ],
               ),
             ),
             Scaffold(
             appBar: AppBar(
+              automaticallyImplyLeading: false,
               title:Text("Help", style:TextStyle(fontFamily : "Samarkan", fontSize: 36)),
               centerTitle: true,
               ),
               body:Container(
                 height: 125,
-                child: const Center(child: Text('Help for this app', style: TextStyle(fontSize: 24, fontFamily: "Montserrat"))),
+                child: const Center(child: Text('Help for this app', style: hospitalStyle)),
               ),
             ),
             Scaffold(
             appBar: AppBar(
+              automaticallyImplyLeading: false,
               title:Text("Settings", style:TextStyle(fontFamily : "Samarkan", fontSize: 36)),
               centerTitle: true,
               ),
               body:ListView(
                 children: <Widget>[
                   TextButton(
-                    child: Text('Account', style: TextStyle(fontSize: 24, fontFamily: "Montserrat")),
+                    style:ButtonStyle(
+                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(18.0),
+                          side: BorderSide(color: Colors.grey)
+                        ),
+                      ),
+                    ),
+
+                    child: Text('Account', style: hospitalStyle.copyWith(fontSize:28, color: Colors.red[300]), textAlign:TextAlign.left),
                     onPressed: (){},
                   ),
                   TextButton(
-                    child: Text('Privacy', style: TextStyle(fontSize: 24, fontFamily: "Montserrat")),
+                    style:ButtonStyle(
+                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(18.0),
+                          side: BorderSide(color: Colors.grey)
+                        ),
+                      ),
+                    ),
+                    child: Text('Privacy', style: hospitalStyle.copyWith(fontSize:28, color: Colors.red[300])),
                     onPressed: (){},
                   ),
                   TextButton(
-                    child: Text('Login Settings', style: TextStyle(fontSize: 24, fontFamily: "Montserrat")),
+                    style:ButtonStyle(
+                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(18.0),
+                          side: BorderSide(color: Colors.grey)
+                        ),
+                      ),
+                    ),
+                    child: Text('Login Settings', style: hospitalStyle.copyWith(fontSize:28, color: Colors.red[300])),
                     onPressed: (){},
                   ),
                   TextButton(
-                    child: Text('Security', style: TextStyle(fontSize: 24, fontFamily: "Montserrat")),
+                    style:ButtonStyle(
+                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(18.0),
+                          side: BorderSide(color: Colors.grey)
+                        ),
+                      ),
+                    ),
+                    child: Text('Security', style: hospitalStyle.copyWith(fontSize:28, color: Colors.red[300])),
                     onPressed: (){},
                   ),
+                  SizedBox(height:150),
+                  Text("Made with Love", style:TextStyle(fontFamily: "Dandelion", fontSize:50), textAlign:TextAlign.center),
+                  Text("Rushour0", style:TextStyle(fontFamily: "Dandelion", fontSize:24), textAlign:TextAlign.center),
+
                 ],
               ),
             ),

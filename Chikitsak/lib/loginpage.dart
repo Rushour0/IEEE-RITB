@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'homepage.dart';
 
 // Login page of the app
 class LoginPage extends StatefulWidget {
@@ -10,7 +11,7 @@ class LoginPage extends StatefulWidget {
 
 // Making state for class LoginPage
 class _LoginPageState extends State<LoginPage> {
-	TextStyle style = TextStyle(fontFamily: 'Montserrat', fontSize: 20.0);
+	TextStyle style = TextStyle(fontFamily: 'Montserrat', fontSize: 20.0, color: Color(0xFFbdc6cf));
      
 	
     final usernameInput = TextEditingController();
@@ -19,8 +20,17 @@ class _LoginPageState extends State<LoginPage> {
     @override
     getInputs()
     {
-    	print(usernameInput.text == "hi" ? 1 : 0);
-    	print(passwordInput.text);
+    	if (usernameInput.text == "admin" && passwordInput.text == "admin")
+    	{
+    		Navigator.pushReplacement(
+				context,
+				MaterialPageRoute(
+					builder: (context){
+						return HomePage();
+					}
+				),
+			);
+    	}
     }
 
 	@override
@@ -35,6 +45,8 @@ class _LoginPageState extends State<LoginPage> {
 		controller:usernameInput,
 		style: style,
 		decoration: InputDecoration(
+			filled: true,
+      		fillColor: Colors.black,
 			contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
 			hintText: "Username",
 			border:
@@ -47,6 +59,8 @@ class _LoginPageState extends State<LoginPage> {
 		style: style,
 		controller:passwordInput,
 		decoration: InputDecoration(
+			filled: true,
+      		fillColor: Colors.black,
 			contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
 			hintText: "Password",
 			border:
@@ -56,15 +70,17 @@ class _LoginPageState extends State<LoginPage> {
 
 	final loginButton = Material(
 		elevation: 5.0,
+
 		borderRadius: BorderRadius.circular(30.0),
-		color: Colors.black,
+		color: Colors.grey[700],
 		child: MaterialButton(
-		minWidth: screenWidth/2,
-		onPressed: getInputs(),
-		child: Text("Login",
-			textAlign: TextAlign.center,
-			style: style.copyWith(
-				color: Colors.white, fontWeight: FontWeight.bold)
+			height:50,
+			minWidth: screenWidth/2,
+			onPressed: (){getInputs();},
+			child: Text("Login",
+				textAlign: TextAlign.center,
+				style: style.copyWith(
+					color: Colors.white, fontWeight: FontWeight.bold)
 			),
 		),
 	);
@@ -84,7 +100,7 @@ class _LoginPageState extends State<LoginPage> {
 							crossAxisAlignment: CrossAxisAlignment.center,
 							mainAxisAlignment: MainAxisAlignment.center,
 							children: <Widget>[
-								Text("Log In", style: TextStyle(fontSize: 56, fontFamily:"Dandelion")),
+								Text("Log In", style: TextStyle(fontSize: 56, fontFamily:"Dandelion", color: Colors.black)),
 								
 								SizedBox(
 									height: 120.0,
