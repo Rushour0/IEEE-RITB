@@ -57,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
 	final loginButton = Material(
 		elevation: 5.0,
 		borderRadius: BorderRadius.circular(30.0),
-		color: Colors.grey[700],
+		color: Colors.black,
 		child: MaterialButton(
 		minWidth: screenWidth/2,
 		onPressed: getInputs(),
