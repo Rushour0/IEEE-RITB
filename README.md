@@ -1,6 +1,7 @@
 # Chikitsak
 
 A project to change medical tourism experience.
+A basic android app using flutter.
 
 ## Login Page
 
